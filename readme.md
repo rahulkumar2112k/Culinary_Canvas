@@ -20,7 +20,7 @@
 - **Interactivity**: JavaScript (DOM Manipulation)  
 
 ## 🚀 Live Demo  
-🔗 [Live Version](#https://rahulkumar2112k.github.io/Culinary_Canvas/)  
+🔗 [Live Version](https://rahulkumar2112k.github.io/Culinary_Canvas/)  
 
 ## 📌 Installation & Setup  
 1. **Clone the Repository**  
