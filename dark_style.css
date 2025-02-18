@@ -1,0 +1,110 @@
+/* Add these styles for the theme toggle button */
+.theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    color: #888; /* Text color for the toggle button */
+}
+
+.theme-toggle .switch {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 34px;
+}
+
+.theme-toggle .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.theme-toggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Background color for the toggle button */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.theme-toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white; /* Color of the toggle button */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.theme-toggle input:checked + .slider {
+    background-color: #2196F3; /* Background color when toggle is on */
+}
+
+.theme-toggle input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #333; /* Background color for dark theme */
+    color: #fff; /* Text color for dark theme */
+}
+
+/*responsive*/
+
+/* For mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .theme-toggle {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu_card, .gallary_image, .review_card, .profile {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .menu_card img, .gallary_image img, .review_profile img, .order_image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .theme-toggle {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu_card, .gallary_image, .review_card, .profile {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .menu_card img, .gallary_image img, .review_profile img, .order_image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Add more styles for dark theme as needed */
+
