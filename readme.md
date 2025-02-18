@@ -2,7 +2,7 @@
 
 *A Traditional Indian Recipe Sharing Website*
 
-![Culinary Canvas](./assets/images/banner.png) <!-- Replace with your actual banner image path -->
+![Culinary Canvas](./recipee_img/Culinary.jpg) <!-- Replace with your actual banner image path -->
 
 ## 🌟 Overview  
 **Culinary Canvas** is a web-based platform that preserves and promotes traditional Indian recipes. The project provides a space for food enthusiasts to share, explore, and celebrate India's rich culinary heritage.  
